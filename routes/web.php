@@ -24,3 +24,8 @@ Route::get('/home', function () {
 Route::get('/agenda_pessoal', function () {
     return view('agenda.pessoal');
 });
+
+/* rota da Agenda Pessoal */
+Route::get('/interessados', function () {
+    return view('secretaria.interessados');
+});

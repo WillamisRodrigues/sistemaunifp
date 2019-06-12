@@ -11,7 +11,7 @@
                   </li>
                   <li><a><i class="fa fa-users"></i> Secretaria <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="">Interessados (Visitas)</a></li>
+                      <li><a href="/interessados">Interessados (Visitas)</a></li>
                       <li><a href="">Alunos (Matricula)</a></li>
                       <li><a href="">Controle de Presença (Secretária)</a></li>
                       <li><a href="">Controle de Presença (Professor)</a></li>
