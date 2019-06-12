@@ -71,6 +71,7 @@ var setContentHeight = function () {
 
   $SIDEBAR_MENU.find('a').on('click', function(ev) {
 	  console.log('clicked - sidebar_menu');
+	  $SIDEBAR_MENU.find('li.active-sm ul').show();
         var $li = $(this).parent();
 
         if ($li.is('.active')) {
