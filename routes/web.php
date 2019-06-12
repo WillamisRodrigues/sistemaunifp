@@ -25,7 +25,13 @@ Route::get('/agenda_pessoal', function () {
     return view('agenda.pessoal');
 });
 
-/* rota da Agenda Pessoal */
+/* rota de Interessados */
 Route::get('/interessados', function () {
     return view('secretaria.interessados');
+});
+
+/* rota cadastro de alunos */
+/* rota de Interessados */
+Route::get('/cadastro_alunos', function () {
+    return view('secretaria.aluno');
 });
