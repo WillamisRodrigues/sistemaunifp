@@ -15,6 +15,12 @@ Route::get('/', function () {
     return view('login.login');
 });
 
+/* rota da home */
 Route::get('/home', function () {
     return view('home.home');
+});
+
+/* rota da Agenda Pessoal */
+Route::get('/agenda_pessoal', function () {
+    return view('agenda.pessoal');
 });
